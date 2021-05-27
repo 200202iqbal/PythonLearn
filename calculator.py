@@ -1,24 +1,32 @@
 print("""Calculator :
-            1. Penjumlahan
-            2. Pengurangan
-            3. Perkalian
-            4. Pembagian
-            5. Pangkat""")
+            Addition
+            Subtraction
+            Multiplication
+            Division
+            Power""")
 
-a = int(input("a :"))
-b = int(input("b :"))
+def addtion(self,a=0,b=0):
+    self.a = a
+    self.b = b
+    return self.a+self.b
 
-def penjumlahan():
-    return a+b
+def subtraction(self,a=0,b=0):
+    self.a = a
+    self.b = b
+    return self.a-self.b
 
-def pengurangan():
-    return a-b
+def multiplication(self,a=0,b=0):
+    self.a = a
+    self.b = b
+    return self.a*self.b
 
-def perkalian():
-    return a*b
+def division(self,a=0,b=0):
+    self.a = a
+    self.b = b
+    return self.a/self.b
 
-def pembagian():
-    return a/b
+def power(self,a=0,b=0):
+    self.a = a
+    self.b = b
+    return self.a**self.b
 
-def pangkat():
-    return pow(a,b)
